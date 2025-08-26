@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.if2000_introduccionprogra;
 
-/**
- *
- * @author xio_d
- */
+
 public class IF_2000_introduccion_progra {
     
 
