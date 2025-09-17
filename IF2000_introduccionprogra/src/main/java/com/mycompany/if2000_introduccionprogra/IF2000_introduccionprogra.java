@@ -3,13 +3,13 @@ package com.mycompany.if2000_introduccionprogra;
 
 //import logic.Ejercicios_semana2_PracticaEnClase;
 //import logic.Lab_01;
-import logic.Lab_02;
+//import logic.Lab_02;
 //import logic.Quiz_3;   
 
 public class IF2000_introduccionprogra {
 
     public static void main(String[] args) {
-         Lab_02 lab2 = new Lab_02();
+         //Lab_02 lab2 = new Lab_02();
         //Ejercicios_semana2_PracticaEnClase ejercicios = new Ejercicios_semana2_PracticaEnClase();
 
       // Lab_01 lab = new Lab_01();
@@ -42,6 +42,7 @@ public class IF2000_introduccionprogra {
         lab.ejercicio12();
         */
         //Lab_02
+        /*
         lab2.ejercicio13();
         lab2.ejercicio14();
         lab2.ejercicio15();
@@ -57,7 +58,7 @@ public class IF2000_introduccionprogra {
         lab2.ejercicio25();
         lab2.ejercicio26();
         lab2.ejercicio27();
-        
+        */
         
         
         
