@@ -1,6 +1,11 @@
-package com.mycompany.if2000_introduccionprogra;
+package com.mycompany.lab_03;
 
-import domain.*;
+import com.mycompany.lab_03.SavingAccount;
+import com.mycompany.lab_03.SINPE;
+import com.mycompany.lab_03.Client;
+import com.mycompany.lab_03.CheckingAccount;
+import com.mycompany.lab_03.Binnacle;
+import com.mycompany.lab_03.Bank;
 
 public class TestSINPE {
 

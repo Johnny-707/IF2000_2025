@@ -2,6 +2,9 @@
 package com.mycompany.if2000_introduccionprogra;
 
 //import domain.Client;
+
+//import com.mycompany.lab_03.TestSINPE;
+
 //import domain.SavingAccount;
 
 
@@ -9,9 +12,9 @@ public class IF_2000_introduccion_progra {
     
 
     public static void main(String[] args) {
-        System.out.println("=== Running TestSINPE Module ===\n");
+       // System.out.println("=== Running TestSINPE Module ===\n");
         
-        TestSINPE.run();
+        //TestSINPE.run();
         //Client client1 = new Client("Edgardo", "Corrales", "1-2323-4545", "45456789", 18);
         
         //SavingAccount account1;

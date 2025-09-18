@@ -1,4 +1,4 @@
-package domain;
+package com.mycompany.lab_03;
 
 public class Client {
     

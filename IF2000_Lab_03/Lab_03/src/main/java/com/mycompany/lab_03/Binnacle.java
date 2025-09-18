@@ -1,5 +1,6 @@
-package domain;
+package com.mycompany.lab_03;
 
+import com.mycompany.lab_03.Account;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;

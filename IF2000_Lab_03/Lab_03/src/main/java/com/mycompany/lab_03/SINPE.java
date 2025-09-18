@@ -1,4 +1,8 @@
-package domain;
+package com.mycompany.lab_03;
+
+import com.mycompany.lab_03.Binnacle;
+import com.mycompany.lab_03.Bank;
+import com.mycompany.lab_03.Account;
 
 public class SINPE {
 

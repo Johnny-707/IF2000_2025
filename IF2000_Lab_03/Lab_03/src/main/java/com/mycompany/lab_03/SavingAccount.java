@@ -1,18 +1,33 @@
-package domain;
 
-public class CheckingAccount extends Account {
+package com.mycompany.lab_03;
 
-    private double interest;
+import com.mycompany.lab_03.Client;
+import com.mycompany.lab_03.Binnacle;
+import com.mycompany.lab_03.Account;
 
-    public CheckingAccount(double interest) {
+public class SavingAccount extends Account {
+
+    private String initialDate;
+    private int months;
+    private double interest; // annual percentage
+
+    public SavingAccount(String initialDate, int months, double interest) {
+        this.initialDate = initialDate;
+        this.months = months;
         this.interest = interest;
     }
 
-    public CheckingAccount(double interest, String accountNumber, double balance, Client client) {
+    public SavingAccount(String initialDate, int months, double interest, String accountNumber, double balance, Client client) {
         super(accountNumber, balance, client);
+        this.initialDate = initialDate;
+        this.months = months;
         this.interest = interest;
     }
 
+    public String getInitialDate() { return initialDate; }
+    public void setInitialDate(String initialDate) { this.initialDate = initialDate; }
+    public int getMonths() { return months; }
+    public void setMonths(int months) { this.months = months; }
     public double getInterest() { return interest; }
     public void setInterest(double interest) { this.interest = interest; }
 
@@ -36,19 +51,22 @@ public class CheckingAccount extends Account {
 
     @Override
     public double interestCalculation() {
-        double gainedInterest = (getBalance() * (interest / 100.0)) / 12.0;
+        double gainedInterest = getBalance() * (interest / 100.0) * (months / 12.0);
         setBalance(getBalance() + gainedInterest);
         return getBalance();
     }
 
     @Override
     public String toString() {
-        double gainedInterest = (getBalance() * (interest / 100.0)) / 12.0;
+        double gainedInterest = getBalance() * (interest / 100.0) * (months / 12.0);
         return super.toString() +
-                "\nAccount Type: CHECKING ACCOUNT" +
+                "\nAccount Type: SAVING ACCOUNT" +
+                "\nInitial date: " + initialDate +
+                "\nMonths: " + months +
                 "\nInterest rate: " + interest + "%" +
                 "\nInterest (calculated): " + String.format("%.2f", gainedInterest) +
                 "\nBalance after interest: " + String.format("%.2f", getBalance());
     }
 }
+
 

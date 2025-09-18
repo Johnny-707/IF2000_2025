@@ -1,5 +1,6 @@
-package domain;
+package com.mycompany.lab_03;
 
+import com.mycompany.lab_03.Account;
 import java.util.ArrayList;
 import java.util.List;
 
